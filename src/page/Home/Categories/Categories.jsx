@@ -9,8 +9,8 @@ import image8 from '../../../../images/business.png'
 
 const Categories = () => {
     return (
-        <div className="card card-side bg-base-100 shadow-xl">
-            <div className='mx-auto mt-40 '>
+        <div className="max-w-screen-xl mt-20 mx-auto card card-side bg-base-100 ">
+            <div className='ms-10 mt-40'>
                 <h1 className="text-5xl font-bold mb-5">Explore <br />
                     Our <br /> Categories</h1>
                 <p className="text-xl">Look into yourself, get something in return as your AchievementLook into yourself, get something Return as your achievement</p>
@@ -32,7 +32,7 @@ const Categories = () => {
                     </div>
                     <div className='rounded-lg bg-orange-50 w-full p-5 shadow-md m-4'>
                         <img src={image4} alt="" />
-                        <h1 className='text-center py-6 font-bold'>Content Writing</h1>
+                        <h1 className='text-center py-6 font-bold'> Writing</h1>
                     </div>
                     <div className='rounded-lg w-full bg-red-50 p-5 shadow-md m-4'>
                         <img src={image5} alt="" />

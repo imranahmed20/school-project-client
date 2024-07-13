@@ -4,7 +4,7 @@ const Footer = () => {
         <div>
             <footer style={{
                 backgroundImage: `url("https://t4.ftcdn.net/jpg/05/00/76/75/360_F_500767502_AdezwSUsyb04l79RpV6zubKulRnIHpd0.jpg")`
-            }} className="footer bg-base-200 text-white text-base-content p-10">
+            }} className="footer bg-cover bg-base-200 text-white text-base-content p-10">
                 <aside>
                     <svg
                         width="50"
